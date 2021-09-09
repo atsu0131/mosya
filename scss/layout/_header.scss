@@ -2,6 +2,8 @@ header {
   display: flex;
   width: 100%;
   height: 70px;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .logo {
@@ -34,4 +36,8 @@ span {
 .color-blue {
   color: #fff;
   background-color: #008da8;
+}
+
+main {
+  z-index: 2;
 }
