@@ -1,0 +1,4 @@
+$(function () {
+	$("#cover").addClass("class");
+	
+});

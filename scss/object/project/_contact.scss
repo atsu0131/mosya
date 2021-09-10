@@ -1,19 +1,79 @@
+.nav {
+  width: 100%;
+  margin: 0 0 0 auto;
+  z-index: 5;
+}
+.menu li {
+  position: relative;
+  float: left;
+}
+.menu li a {
+  display: block;
+  width: 130px;
+  text-align: center;
+}
+.blue {
+  background-color: #d4f1f8;
+  width: 130px;
+  text-align: center;
+}
+
+.blue:hover {
+  color: #008da8;
+  background-color: #fff;
+}
+
+.nav-title:hover {
+  background-color: #d4f1f8;
+}
+.nav-title:hover > ul {
+  display: block;
+}
+.menu ul {
+  display: none;
+  position: absolute;
+  top: 90px;
+  width: 200px;
+}
+
 .TopHead__layer1 {
   background-image: url(http://176.34.11.254/wp-content/themes/raisetech2019/common/img/bg-hero1.png),
     url(http://176.34.11.254/wp-content/themes/raisetech2019/common/img/bg-hero2.png);
   width: 100%;
-  height: 900px;
+  height: 600px;
   background-repeat: no-repeat; /* 画像の繰り返しを指定  */
-  background-size: contain; /* 画像のサイズを指定    */
+  background-size: cover; /* 画像のサイズを指定    */
+  z-index: 1;
 }
 
 .TopHead__layer2 {
   background-image: url(http://176.34.11.254/wp-content/themes/raisetech2019/common/img/bg-hero3.png);
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   background-attachment: fixed;
   position: absolute;
-  top: 0;
+  background-size: contain; /* 画像のサイズを指定    */
+  top: 85px;
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.black {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.TopHead__body {
+  background-color: #fff;
+  text-align: center;
+
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  max-width: 530px;
+  border-radius: 10px;
+  padding: 43px 40px 19px;
+  width: 333px;
+  height: 265px;
 }
