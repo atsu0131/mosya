@@ -7,12 +7,13 @@ header {
 }
 
 .logo {
-  margin: 12px;
+  margin: 17px 12px 12px 12px;
 }
 
 .tag {
-  margin: 10px;
+  margin: 17px 12px 12px 12px;
   margin-left: 40px;
+  vertical-align: middle;
 }
 
 .Header__title {
@@ -47,4 +48,13 @@ ul {
 
 main {
   z-index: 2;
+}
+
+@media screen and (max-width: 1120px) {
+  .tag {
+    display: none;
+  }
+  .Nav__body {
+    display: none;
+  }
 }
