@@ -13,6 +13,16 @@
   text-align: center;
   padding: 0 20px 0 20px;
 }
+.menu li p {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+.menuSub {
+  display: flex;
+  flex-flow: column;
+}
 .blue {
   background-color: #d4f1f8;
   width: 100%;
@@ -24,12 +34,12 @@
   background-color: #fff;
 }
 
-.nav-title:hover {
-  background-color: #d4f1f8;
-}
-.nav-title:hover > ul {
-  display: block;
-}
+// .nav-title:hover {
+//   background-color: #d4f1f8;
+// }
+// .nav-title:hover > ul {
+//   display: block;
+// }
 .menu ul {
   display: none;
   position: absolute;
@@ -174,9 +184,15 @@ i {
   .middle__title img {
     display: none;
   }
+  .color-blue {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .TopHead__body {
     margin-top: 100%;
+  }
+  .none {
+    display: none;
   }
 }

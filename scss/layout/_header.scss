@@ -21,6 +21,10 @@ header {
   display: flex;
 }
 
+// .sub-title{
+//   display: none;
+// }
+
 span {
   white-space: nowrap;
   font-size: 14px;
@@ -94,6 +98,7 @@ main {
     display: none;
   }
   .Nav__body {
+    line-height: 40px;
   }
   .burger-btn {
     display: block;
@@ -118,5 +123,6 @@ main {
     flex-wrap: wrap;
     width: 100%;
     background-color: #fff;
+    position: absolute;
   }
 }
