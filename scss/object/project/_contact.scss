@@ -10,7 +10,7 @@
 .menu li a {
   display: block;
   // width: 100%;
-  // padding: 0 20px 0 20px;
+  padding: 5px 30px 5px 10px;
 }
 .menu li p {
   display: block;
@@ -42,7 +42,7 @@
   display: none;
   position: absolute;
   top: 80px;
-  width: 200px;
+  width: 250px;
 }
 
 .TopHead__layer1 {
@@ -147,6 +147,10 @@ i {
   color: white;
   text-align: center;
 }
+// .menuSub li a {
+//   display: block;
+//   padding: 0 20px;
+// }
 
 @media screen and (max-width: 1388px) {
   header {
@@ -164,7 +168,7 @@ i {
     width: 100%;
     padding: 0 40px 19px 40px;
     border-radius: 0;
-    height: 400px;
+    // height: 400px;
     font-size: 13px;
   }
   .Recommendation {
@@ -219,6 +223,7 @@ i {
 @media screen and (max-width: 700px) {
   .TopHead__body {
     margin-top: 100%;
+    height: 400px;
   }
   .none {
     display: none;
@@ -249,10 +254,5 @@ i {
   }
   .color-blue {
     display: none;
-  }
-}
-@media screen and (max-width: 500px) {
-  .black {
-    margin-top: 10%;
   }
 }
