@@ -23,14 +23,6 @@ $(function () {
       $(".menuSub", this).slideUp();
     }
   );
-  $(".hover-title3").hover(
-    function () {
-      $(".menuSub:not(:animated)", this).slideDown();
-    },
-    function () {
-      $(".menuSub", this).slideUp();
-    }
-  );
   $(".hover-title4").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
@@ -58,5 +50,71 @@ $(function () {
 
   $(".burger-btn").click(function () {
     $("#nav").toggleClass("none");
+  });
+
+  $(function () {
+    // アイコンを囲うaタグの指定
+    var toggles = $(".js-1");
+    //アイコンをクリックでクラスの切替え
+    toggles.click(function (event) {
+      event.preventDefault();
+      toggles.toggleClass("on");
+      if (toggles.hasClass("on")) {
+      } else {
+        $(".menuSub").slideUp();
+      }
+    });
+  });
+  $(function () {
+    // アイコンを囲うaタグの指定
+    var toggles = $(".js-2");
+    //アイコンをクリックでクラスの切替え
+    toggles.click(function (event) {
+      event.preventDefault();
+      toggles.toggleClass("on");
+      if (toggles.hasClass("on")) {
+      } else {
+        $(".menuSub").slideUp();
+      }
+    });
+  });
+  $(function () {
+    // アイコンを囲うaタグの指定
+    var toggles = $(".js-3");
+    //アイコンをクリックでクラスの切替え
+    toggles.click(function (event) {
+      event.preventDefault();
+      toggles.toggleClass("on");
+      if (toggles.hasClass("on")) {
+      } else {
+        $(".menuSub").slideUp();
+      }
+    });
+  });
+  $(function () {
+    // アイコンを囲うaタグの指定
+    var toggles = $(".js-4");
+    //アイコンをクリックでクラスの切替え
+    toggles.click(function (event) {
+      event.preventDefault();
+      toggles.toggleClass("on");
+      if (toggles.hasClass("on")) {
+      } else {
+        $(".menuSub").slideUp();
+      }
+    });
+  });
+  $(function () {
+    // アイコンを囲うaタグの指定
+    var toggles = $(".js-5");
+    //アイコンをクリックでクラスの切替え
+    toggles.click(function (event) {
+      event.preventDefault();
+      toggles.toggleClass("on");
+      if (toggles.hasClass("on")) {
+      } else {
+        $(".menuSub").slideUp();
+      }
+    });
   });
 });

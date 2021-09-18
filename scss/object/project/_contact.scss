@@ -219,6 +219,49 @@ i {
   .color-blue {
     display: none;
   }
+  .blue:hover {
+    color: black;
+    background-color: #f1f9fa;
+  }
+  .plus::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10;
+    // margin: auto;
+    margin-top: 30px;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: 0.2s;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+  }
+  .plus.on::before {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  .plus::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10;
+    // margin: auto;
+    margin-top: 30px;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: 0.3s;
+  }
+  .plus.on::after {
+    background-color: transparent;
+  }
 }
 @media screen and (max-width: 700px) {
   .TopHead__body {
