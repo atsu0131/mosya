@@ -90,12 +90,12 @@
   // max-width: 550px;
   border-radius: 10px;
   padding: 43px 20px 60px 20px;
-  width: 23%;
+  width: 400px;
   height: 330px;
 }
 
 .middle__title img {
-  width: 80%;
+  width: 300px;
 }
 
 .button {
@@ -163,28 +163,8 @@ i {
     width: 100px;
     height: auto;
   }
-  .TopHead__body {
-    margin-top: 50%;
-    width: 100%;
-    padding: 0 40px 19px 40px;
-    border-radius: 0;
-    // height: 400px;
-    font-size: 13px;
-  }
-  .Recommendation {
-    top: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  .TopHead__layer1 {
-    height: 320px;
-  }
   .TopHead__layer2 {
-    height: 420px;
-    top: 0;
-  }
-  .middle__title img {
-    display: none;
+    top: 30px;
   }
   .color-blue {
     display: none;
@@ -209,9 +189,9 @@ i {
   .menu li p {
     text-align: left;
   }
-  .black {
-    margin-top: 10%;
-  }
+  // .black {
+  //   margin-top: 10%;
+  // }
   .blue {
     color: black;
     background-color: #fff;
@@ -264,6 +244,29 @@ i {
   }
 }
 @media screen and (max-width: 700px) {
+  .TopHead__body {
+    margin-top: 50%;
+    width: 100%;
+    padding: 0 40px 19px 40px;
+    border-radius: 0;
+    // height: 400px;
+    font-size: 13px;
+  }
+  .middle__title img {
+    display: none;
+  }
+  .Recommendation {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .TopHead__layer1 {
+    height: 320px;
+    top: 0;
+  }
+  .TopHead__layer2 {
+    height: 420px;
+  }
   .TopHead__body {
     margin-top: 100%;
     height: 250px;
