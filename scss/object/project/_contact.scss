@@ -9,7 +9,8 @@
 }
 .menu li a {
   display: block;
-  width: 100%;
+  // width: 100%;
+  // padding: 0 20px 0 20px;
 }
 .menu li p {
   display: block;
@@ -40,7 +41,7 @@
 .menu ul {
   display: none;
   position: absolute;
-  top: 90px;
+  top: 80px;
   width: 200px;
 }
 
@@ -184,6 +185,36 @@ i {
   .color-blue {
     display: none;
   }
+  .none {
+    display: none;
+  }
+  .menu li {
+    width: 100%;
+  }
+  .menu ul {
+    position: static;
+    width: 100%;
+  }
+  .nav-title {
+    display: block;
+    width: 100%;
+  }
+  .menu li a {
+    margin: 10px 0 0 30px;
+  }
+  .menu li p {
+    text-align: left;
+  }
+  .black {
+    margin-top: 10%;
+  }
+  .blue {
+    color: black;
+    background-color: #fff;
+  }
+  .color-blue {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .TopHead__body {
@@ -208,5 +239,20 @@ i {
   }
   .menu li p {
     text-align: left;
+  }
+  .black {
+    margin-top: 20%;
+  }
+  .blue {
+    color: black;
+    background-color: #fff;
+  }
+  .color-blue {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .black {
+    margin-top: 10%;
   }
 }
