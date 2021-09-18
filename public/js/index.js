@@ -1,13 +1,53 @@
 $(function () {
   $(".burger-btn").on("click", function () {
-    $(".burger-btn").toggleClass("close");
-    $(".bar").toggleClass("white");
-    $(".nav-wrapper").fadeToggle(500);
+    // $(".burger-btn").toggleClass("close");
+    // $(".bar").toggleClass("white");
+    // $(".nav-wrapper").fadeToggle(500);
   });
 });
 
 $(function () {
-  $(".nav-title").hover(
+  $(".hover-title1").hover(
+    function () {
+      $(".menuSub:not(:animated)", this).slideDown();
+    },
+    function () {
+      $(".menuSub", this).slideUp();
+    }
+  );
+  $(".hover-title2").hover(
+    function () {
+      $(".menuSub:not(:animated)", this).slideDown();
+    },
+    function () {
+      $(".menuSub", this).slideUp();
+    }
+  );
+  $(".hover-title3").hover(
+    function () {
+      $(".menuSub:not(:animated)", this).slideDown();
+    },
+    function () {
+      $(".menuSub", this).slideUp();
+    }
+  );
+  $(".hover-title4").hover(
+    function () {
+      $(".menuSub:not(:animated)", this).slideDown();
+    },
+    function () {
+      $(".menuSub", this).slideUp();
+    }
+  );
+  $(".hover-title5").hover(
+    function () {
+      $(".menuSub:not(:animated)", this).slideDown();
+    },
+    function () {
+      $(".menuSub", this).slideUp();
+    }
+  );
+  $(".hover-title6").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
     },
@@ -17,7 +57,6 @@ $(function () {
   );
 
   $(".burger-btn").click(function () {
-    console.log("クリックされました！");
     $("#nav").toggleClass("none");
   });
 });
