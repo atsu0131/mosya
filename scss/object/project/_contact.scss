@@ -49,14 +49,15 @@
   background-image: url(http://176.34.11.254/wp-content/themes/raisetech2019/common/img/bg-hero1.png),
     url(http://176.34.11.254/wp-content/themes/raisetech2019/common/img/bg-hero2.png);
   width: 100%;
-  height: 550px;
+  height: 650px;
   background-repeat: no-repeat; /* 画像の繰り返しを指定  */
-  background-size: contain; /* 画像のサイズを指定    */
+  background-size: cover; /* 画像のサイズを指定    */
   z-index: 1;
-  background-size: 100%;
+  background-size: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
 }
 
 .TopHead__layer2 {
@@ -68,7 +69,7 @@
   background-repeat: no-repeat; /* 画像の繰り返しを指定  */
   top: 80px;
   width: 100%;
-  height: 570px;
+  height: 700px;
   z-index: -1;
   background-size: auto 100%;
 }
