@@ -10,6 +10,7 @@ $(function () {
   $(".hover-title1").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
+      $(".js-1").toggleClass("on");
     },
     function () {
       $(".menuSub", this).slideUp();
@@ -18,6 +19,7 @@ $(function () {
   $(".hover-title2").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
+      $(".js-2").toggleClass("on");
     },
     function () {
       $(".menuSub", this).slideUp();
@@ -26,6 +28,7 @@ $(function () {
   $(".hover-title4").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
+      $(".js-3").toggleClass("on");
     },
     function () {
       $(".menuSub", this).slideUp();
@@ -34,6 +37,7 @@ $(function () {
   $(".hover-title5").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
+      $(".js-5").toggleClass("on");
     },
     function () {
       $(".menuSub", this).slideUp();
@@ -42,6 +46,7 @@ $(function () {
   $(".hover-title6").hover(
     function () {
       $(".menuSub:not(:animated)", this).slideDown();
+      $(".js-6").toggleClass("on");
     },
     function () {
       $(".menuSub", this).slideUp();
