@@ -78,7 +78,7 @@
   height: 1200px;
   background-color: black;
   position: relative;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .TopHead__body {
@@ -116,8 +116,14 @@
   display: flex;
   position: absolute;
   top: -100px;
-  left: 0;
-  margin: 0 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+.Recommendation__entry {
+  margin: 0 30px;
 }
 
 .Recommendation__icon {
@@ -152,7 +158,7 @@ i {
 //   padding: 0 20px;
 // }
 
-@media screen and (max-width: 1388px) {
+@media screen and (max-width: 1450px) {
   header {
     height: 40px;
   }
@@ -243,6 +249,11 @@ i {
     background-color: transparent;
   }
 }
+// @media screen and (max-width: 800px) {
+//   .Recommendation {
+//     margin: 0;
+//   }
+// }
 @media screen and (max-width: 700px) {
   .TopHead__body {
     margin-top: 50%;
@@ -268,7 +279,7 @@ i {
     height: 420px;
   }
   .TopHead__body {
-    margin-top: 100%;
+    margin-top: 65%;
     height: 250px;
   }
   .none {
@@ -292,7 +303,7 @@ i {
     text-align: left;
   }
   .black {
-    margin-top: 30%;
+    margin-top: 10%;
   }
   .blue {
     color: black;
